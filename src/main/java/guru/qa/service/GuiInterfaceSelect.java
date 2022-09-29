@@ -19,12 +19,12 @@ public class GuiInterfaceSelect {
     }
 
     public Car chooseCar() {
-        //String desiredCar = JOptionPane.showInputDialog("Car:");
+        //String desiredCar = JOptionPane.showInputDialog("Select a car:");
         String[] car = {"Ferrari", "Mercedes"};
         ImageIcon iconCar = new ImageIcon("src/main/java/guru/qa/icon/car.png");
         String desiredCar = (String) JOptionPane.showInputDialog(
                 null,
-                "Choose a car:",
+                "Select a car:",
                 "Car selection",
                 JOptionPane.OK_OPTION,
                 iconCar,
@@ -35,7 +35,7 @@ public class GuiInterfaceSelect {
     }
 
     public Track chooseTrack() {
-        // String desiredTrack = JOptionPane.showInputDialog("Track:");
+        // String desiredTrack = JOptionPane.showInputDialog("Select track:");
         String[] track = {"Spa", "Nurburgring"};
         ImageIcon iconTrack = new ImageIcon("src/main/java/guru/qa/icon/track.png");
         String desiredTrack = (String) JOptionPane.showInputDialog(null,
